@@ -19,21 +19,28 @@ const Idea: React.FC = () => {
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">Catene di distribuzione lunghe e inefficienti</span> che allontanano produttori e consumatori, aumentando i costi e riducendo la qualità
+                <span className="font-semibold">I consumatori sprecano in media oltre 30kg di cibo all'anno pro capite (Fonte:FAO)
               </p>
             </div>
             
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">Difficoltà nella pianificazione alimentare</span> con conseguenti sprechi e acquisti poco mirati
+                <span className="font-semibold">Fare la spesa richiede tempo, pianificazione e attenzione... che spesso non abbiamo
               </p>
             </div>
             
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">Mancanza di personalizzazione</span> nell'esperienza di acquisto alimentare che non considera esigenze e preferenze individuali
+                <span className="font-semibold">I piccoli produttori faaticano a raggiungere il cliente finale e sono schiacciati dalla GD=
+              </p>
+            </div>
+              
+          <div className="slide-list-item">
+              <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
+              <p className="text-pitch-gray">
+                <span className="font-semibold">Le piattaforme di delivery alimentare non risolvono il problema: Sono veloci ma impersonali e disorganizzate
               </p>
             </div>
           </div>
