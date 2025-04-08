@@ -96,7 +96,10 @@ const Finance1: React.FC = () => {
                   <XAxis dataKey="year" />
                   <YAxis />
                   <Tooltip 
-                    formatter={(value) => `€ ${new Intl.NumberFormat('it-IT').format(value)}`} 
+                    formatter={(value) => {
+                      // Cast value to number to ensure compatibility with Intl.NumberFormat
+                      return `€ ${new Intl.NumberFormat('it-IT').format(Number(value))}`;
+                    }} 
                   />
                   <Legend />
                   <Bar dataKey="revenue" name="Ricavi" fill="#1E3A8A" />
