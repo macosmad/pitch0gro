@@ -10,30 +10,30 @@ const Idea: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <p className="slide-paragraph">
-            Oggi, molte persone si trovano ad affrontare sfide significative che impattano la loro
-            vita quotidiana e il loro benessere. Abbiamo identificato un problema critico
-            nel mercato che richiede una soluzione innovativa.
+            Nel mercato alimentare attuale, esiste una disconnessione significativa tra i piccoli e medi produttori
+            di alta qualità e i consumatori finali. Questa separazione crea problemi sia per i produttori
+            che per chi cerca un'alimentazione più consapevole e sostenibile.
           </p>
           
           <div className="space-y-4 mt-8">
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">Inefficienza persistente</span> nei processi attuali che causano ritardi e frustrazione
+                <span className="font-semibold">Catene di distribuzione lunghe e inefficienti</span> che allontanano produttori e consumatori, aumentando i costi e riducendo la qualità
               </p>
             </div>
             
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">Costi elevati</span> associati alle soluzioni esistenti sul mercato
+                <span className="font-semibold">Difficoltà nella pianificazione alimentare</span> con conseguenti sprechi e acquisti poco mirati
               </p>
             </div>
             
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">Scarsa accessibilità</span> delle alternative disponibili per la maggior parte degli utenti
+                <span className="font-semibold">Mancanza di personalizzazione</span> nell'esperienza di acquisto alimentare che non considera esigenze e preferenze individuali
               </p>
             </div>
           </div>
@@ -43,22 +43,22 @@ const Idea: React.FC = () => {
           <Card className="slide-card h-full flex flex-col justify-center">
             <h3 className="text-xl font-semibold mb-4 text-pitch-blue">La nostra visione</h3>
             <p className="text-pitch-gray mb-6">
-              Crediamo che sia possibile risolvere questo problema fondamentale con un approccio completamente nuovo, 
-              che unisce tecnologia all'avanguardia e un profondo focus sull'esperienza utente.
+              Una piattaforma di distribuzione alimentare decentralizzata che connette direttamente i piccoli e medi produttori 
+              di alta qualità con i consumatori finali, promuovendo un'alimentazione più consapevole e sostenibile.
             </p>
             
             <div className="mt-auto space-y-3">
               <div className="flex items-center">
                 <CheckCircle className="text-pitch-teal h-5 w-5 mr-2" />
-                <p className="text-pitch-gray">Maggiore efficienza operativa</p>
+                <p className="text-pitch-gray">Connessione diretta tra produttori e consumatori</p>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="text-pitch-teal h-5 w-5 mr-2" />
-                <p className="text-pitch-gray">Riduzione significativa dei costi</p>
+                <p className="text-pitch-gray">Assistente AI per pianificazione alimentare personalizzata</p>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="text-pitch-teal h-5 w-5 mr-2" />
-                <p className="text-pitch-gray">Accessibilità per tutti gli utenti</p>
+                <p className="text-pitch-gray">Riduzione degli sprechi con spesa mirata e consapevole</p>
               </div>
             </div>
           </Card>
