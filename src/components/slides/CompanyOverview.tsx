@@ -9,8 +9,8 @@ const CompanyOverview: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <p className="slide-paragraph">
-            La nostra azienda ha sviluppato una soluzione innovativa che affronta 
-            direttamente i problemi identificati, introducendo un nuovo paradigma nel settore.
+            La nostra piattaforma innovativa colma il divario tra produttori di alta qualità e consumatori,
+            attraverso un sistema di distribuzione alimentare decentralizzato che rivoluziona l'approccio al cibo.
           </p>
           
           <div className="mt-8">
@@ -19,10 +19,10 @@ const CompanyOverview: React.FC = () => {
                 <LightbulbIcon className="text-pitch-teal h-6 w-6" />
               </div>
               <div>
-                <h3 className="font-semibold text-lg text-pitch-blue mb-2">Tecnologia Proprietaria</h3>
+                <h3 className="font-semibold text-lg text-pitch-blue mb-2">Personal Shopper AI</h3>
                 <p className="text-pitch-gray">
-                  La nostra piattaforma utilizza algoritmi avanzati per ottimizzare 
-                  i processi e ridurre drasticamente i tempi di esecuzione.
+                  Un assistente virtuale basato su intelligenza artificiale che elabora piani di spesa settimanali 
+                  personalizzati in base alle preferenze e alle diete degli utenti.
                 </p>
               </div>
             </div>
@@ -32,10 +32,10 @@ const CompanyOverview: React.FC = () => {
                 <Award className="text-pitch-teal h-6 w-6" />
               </div>
               <div>
-                <h3 className="font-semibold text-lg text-pitch-blue mb-2">Esperienza Utente Superiore</h3>
+                <h3 className="font-semibold text-lg text-pitch-blue mb-2">Rete di Produttori Selezionati</h3>
                 <p className="text-pitch-gray">
-                  Design intuitivo che elimina la curva di apprendimento e rende il nostro 
-                  prodotto accessibile a tutti, indipendentemente dal livello tecnico.
+                  Una rete attentamente curata di piccoli e medi produttori che offrono materie prime di alta qualità,
+                  selezionati per sostenibilità e pratiche etiche.
                 </p>
               </div>
             </div>
@@ -45,10 +45,10 @@ const CompanyOverview: React.FC = () => {
                 <BarChart className="text-pitch-teal h-6 w-6" />
               </div>
               <div>
-                <h3 className="font-semibold text-lg text-pitch-blue mb-2">Risultati Misurabili</h3>
+                <h3 className="font-semibold text-lg text-pitch-blue mb-2">Impatto Misurabile</h3>
                 <p className="text-pitch-gray">
-                  I nostri utenti vedono un miglioramento del 40% nell'efficienza e 
-                  una riduzione del 30% nei costi operativi.
+                  I nostri utenti sperimentano una riduzione del 30% degli sprechi alimentari e una maggiore 
+                  soddisfazione grazie a un'alimentazione più consapevole e personalizzata.
                 </p>
               </div>
             </div>
@@ -60,8 +60,8 @@ const CompanyOverview: React.FC = () => {
           
           <div className="space-y-4">
             <div className="border-l-4 border-pitch-teal pl-4 py-2">
-              <h4 className="font-semibold text-pitch-blue">1. Identificazione</h4>
-              <p className="text-pitch-gray text-sm">Analisi automatica delle necessità dell'utente</p>
+              <h4 className="font-semibold text-pitch-blue">1. Profilazione</h4>
+              <p className="text-pitch-gray text-sm">L'AI analizza preferenze, diete e abitudini alimentari dell'utente</p>
             </div>
             
             <div className="flex justify-center my-2">
@@ -69,8 +69,8 @@ const CompanyOverview: React.FC = () => {
             </div>
             
             <div className="border-l-4 border-pitch-teal pl-4 py-2">
-              <h4 className="font-semibold text-pitch-blue">2. Elaborazione</h4>
-              <p className="text-pitch-gray text-sm">Algoritmi proprietari ottimizzano i processi</p>
+              <h4 className="font-semibold text-pitch-blue">2. Pianificazione</h4>
+              <p className="text-pitch-gray text-sm">Creazione di un piano alimentare settimanale personalizzato</p>
             </div>
             
             <div className="flex justify-center my-2">
@@ -78,8 +78,8 @@ const CompanyOverview: React.FC = () => {
             </div>
             
             <div className="border-l-4 border-pitch-teal pl-4 py-2">
-              <h4 className="font-semibold text-pitch-blue">3. Implementazione</h4>
-              <p className="text-pitch-gray text-sm">Applicazione automatizzata delle soluzioni</p>
+              <h4 className="font-semibold text-pitch-blue">3. Selezione</h4>
+              <p className="text-pitch-gray text-sm">Abbinamento con produttori locali di alta qualità</p>
             </div>
             
             <div className="flex justify-center my-2">
@@ -87,8 +87,8 @@ const CompanyOverview: React.FC = () => {
             </div>
             
             <div className="border-l-4 border-pitch-teal pl-4 py-2">
-              <h4 className="font-semibold text-pitch-blue">4. Risultati</h4>
-              <p className="text-pitch-gray text-sm">Miglioramento immediato e misurazione KPI</p>
+              <h4 className="font-semibold text-pitch-blue">4. Consegna</h4>
+              <p className="text-pitch-gray text-sm">Distribuzione efficiente degli ingredienti necessari per i pasti pianificati</p>
             </div>
           </div>
         </div>
