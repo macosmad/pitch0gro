@@ -5,12 +5,11 @@ import { LightbulbIcon, ArrowRightCircle, Award, BarChart } from 'lucide-react';
 
 const CompanyOverview: React.FC = () => {
   return (
-    <Slide id="company-overview" title="Panoramica Aziendale: La Soluzione">
+    <Slide id="company-overview" title="La Soluzione">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <p className="slide-paragraph">
-            La nostra piattaforma innovativa colma il divario tra produttori di alta qualità e consumatori,
-            attraverso un sistema di distribuzione alimentare decentralizzato che rivoluziona l'approccio al cibo.
+            La piattaforma alimentare intelligente che connette produttori e persone senza sprechi, attraverso un sistema di distribuzione alimentare decentralizzato che rivoluziona l'approccio al cibo.
           </p>
           
           <div className="mt-8">
@@ -35,7 +34,7 @@ const CompanyOverview: React.FC = () => {
                 <h3 className="font-semibold text-lg text-pitch-blue mb-2">Rete di Produttori Selezionati</h3>
                 <p className="text-pitch-gray">
                   Una rete attentamente curata di piccoli e medi produttori che offrono materie prime di alta qualità,
-                  selezionati per sostenibilità e pratiche etiche.
+                  inseriti in un carrello intelligiente.
                 </p>
               </div>
             </div>
@@ -47,8 +46,7 @@ const CompanyOverview: React.FC = () => {
               <div>
                 <h3 className="font-semibold text-lg text-pitch-blue mb-2">Impatto Misurabile</h3>
                 <p className="text-pitch-gray">
-                  I nostri utenti sperimentano una riduzione del 30% degli sprechi alimentari e una maggiore 
-                  soddisfazione grazie a un'alimentazione più consapevole e personalizzata.
+                  Niente più sprechi: compri solo ciò che serve per i pasti della settimana.
                 </p>
               </div>
             </div>
@@ -56,12 +54,12 @@ const CompanyOverview: React.FC = () => {
         </div>
         
         <div className="bg-white rounded-lg shadow-lg p-6 border border-gray-100">
-          <h3 className="text-xl font-bold text-pitch-blue mb-6">Come Funziona</h3>
+          <h3 className="text-2xl font-bold text-pitch-blue mb-6">Come Funziona</h3>
           
           <div className="space-y-4">
             <div className="border-l-4 border-pitch-teal pl-4 py-2">
               <h4 className="font-semibold text-pitch-blue">1. Profilazione</h4>
-              <p className="text-pitch-gray text-sm">L'AI analizza preferenze, diete e abitudini alimentari dell'utente</p>
+              <p className="text-pitch-gray text-sm">L'utente inserisce preferenze, diete, allergie e obiettivi.</p>
             </div>
             
             <div className="flex justify-center my-2">
@@ -70,7 +68,7 @@ const CompanyOverview: React.FC = () => {
             
             <div className="border-l-4 border-pitch-teal pl-4 py-2">
               <h4 className="font-semibold text-pitch-blue">2. Pianificazione</h4>
-              <p className="text-pitch-gray text-sm">Creazione di un piano alimentare settimanale personalizzato</p>
+              <p className="text-pitch-gray text-sm">L'AI genera un piano pasti settimanale con lista ottimizzata degli ingredienti</p>
             </div>
             
             <div className="flex justify-center my-2">
@@ -79,7 +77,7 @@ const CompanyOverview: React.FC = () => {
             
             <div className="border-l-4 border-pitch-teal pl-4 py-2">
               <h4 className="font-semibold text-pitch-blue">3. Selezione</h4>
-              <p className="text-pitch-gray text-sm">Abbinamento con produttori locali di alta qualità</p>
+              <p className="text-pitch-gray text-sm">Il sistema seleziona i prodotti dai produttori locali e organizza la consegna</p>
             </div>
             
             <div className="flex justify-center my-2">
