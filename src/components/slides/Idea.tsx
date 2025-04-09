@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Slide from '../Slide';
 import { Card } from '@/components/ui/card';
@@ -19,28 +18,36 @@ const Idea: React.FC = () => {
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">I consumatori sprecano in media oltre 30kg di cibo all'anno pro capite (Fonte:FAO)
+                <span className="font-semibold">
+                  I consumatori sprecano in media oltre 30kg di cibo all'anno pro capite (Fonte: FAO)
+                </span>
               </p>
             </div>
             
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">Fare la spesa richiede tempo, pianificazione e attenzione... che spesso non abbiamo
+                <span className="font-semibold">
+                  Fare la spesa richiede tempo, pianificazione e attenzione... che spesso non abbiamo
+                </span>
               </p>
             </div>
             
             <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">I piccoli produttori faaticano a raggiungere il cliente finale e sono schiacciati dalla GD=
+                <span className="font-semibold">
+                  I piccoli produttori faticano a raggiungere il cliente finale e sono schiacciati dalla GDO
+                </span>
               </p>
             </div>
               
-          <div className="slide-list-item">
+            <div className="slide-list-item">
               <AlertTriangle className="text-pitch-accent h-6 w-6 mr-3 flex-shrink-0 mt-1" />
               <p className="text-pitch-gray">
-                <span className="font-semibold">Le piattaforme di delivery alimentare non risolvono il problema: Sono veloci ma impersonali e disorganizzate
+                <span className="font-semibold">
+                  Le piattaforme di delivery alimentare non risolvono il problema: sono veloci ma impersonali e disorganizzate
+                </span>
               </p>
             </div>
           </div>
