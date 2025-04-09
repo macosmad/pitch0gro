@@ -18,10 +18,9 @@ const BusinessModel: React.FC = () => {
                   <DollarSign className="h-5 w-5 text-pitch-blue" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-pitch-blue mb-1">Modello SaaS</h4>
+                  <h4 className="font-semibold text-pitch-blue mb-1">Sales Commission </h4>
                   <p className="text-sm text-pitch-gray">
-                    Abbonamenti mensili e annuali con diversi livelli di servizio 
-                    per adattarsi alle esigenze di ogni cliente.
+                    Fee percentuale su ogni transazione gestita tramite la piattaforma.
                   </p>
                 </div>
               </div>
@@ -31,10 +30,9 @@ const BusinessModel: React.FC = () => {
                   <BarChart4 className="h-5 w-5 text-pitch-teal" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-pitch-teal mb-1">Servizi Premium</h4>
+                  <h4 className="font-semibold text-pitch-teal mb-1">Membership & Access Fee</h4>
                   <p className="text-sm text-pitch-gray">
-                    Funzionalità avanzate, supporto dedicato e servizi di consulenza 
-                    disponibili come add-on.
+                    Quota annuale o mensile per entrare e restare nel consorzio.
                   </p>
                 </div>
               </div>
@@ -44,9 +42,9 @@ const BusinessModel: React.FC = () => {
                   <RefreshCw className="h-5 w-5 text-pitch-accent" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-pitch-accent mb-1">Integrazioni</h4>
+                  <h4 className="font-semibold text-pitch-accent mb-1">Premium Plans for Consumers</h4>
                   <p className="text-sm text-pitch-gray">
-                    API e connettori per sistemi di terze parti, con modello di revenue sharing.
+                    Abbonamento per funzionalità extra: piani alimentari, accesso anticipato, preferenze AI.
                   </p>
                 </div>
               </div>
